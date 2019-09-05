@@ -9,6 +9,7 @@
   "author": "Mucyo Miller",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.1.0",
     "express": "^4.17.1"
   }
 }

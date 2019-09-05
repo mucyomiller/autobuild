@@ -1,3 +1,6 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 const express = require('express');
 
 const PORT = process.env.PORT || 3000;
@@ -14,8 +17,19 @@ app.get('/', (req, res) => {
     });
 });
 app.get('/checkbuild', (req, res) => {
-    res.status(200).json({status: res.statusCode, message: 'Hola! review app is working well 👌'});
+    res.status(200).json({ 
+        status: res.statusCode,
+        message: 'Hola! review app is working well 👌'
+    });
 });
+
+app.get('/checkenvs', (req, res) => {
+    res.status(200).json({
+        status: res.statusCode,
+        message: process.env.TEST_VALUE
+    });
+});
+
 app.get('/ping', (req, res) => {
     return res.status(200).json({
         status: res.statusCode,
