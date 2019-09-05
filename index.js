@@ -26,7 +26,7 @@ app.get('/checkbuild', (req, res) => {
 app.get('/checkenvs', (req, res) => {
     res.status(200).json({
         status: res.statusCode,
-        message: process.env.TEST_VALUE
+        message: process.env.CHECK_ENV
     });
 });
 
