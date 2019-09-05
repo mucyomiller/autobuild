@@ -1,2 +1,2 @@
 # autobuild 
-hacker around heroku pipeline
+hacks around heroku pipeline
