@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 app.get('/checkbuild', (req, res) => {
     res.status(200).json({ 
         status: res.statusCode,
-        message: 'Hola! review app is working well 👌'
+        message: 'Hola! review app is working 👌'
     });
 });
 
