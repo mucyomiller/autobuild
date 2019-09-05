@@ -8,7 +8,7 @@
     }
   ],
   "env": {
-    "TEST_VALUE": {
+    "CHECK_ENV": {
       "required": true
     },
   },
