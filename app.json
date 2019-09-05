@@ -10,7 +10,7 @@
   "env": {
     "TEST_VALUE": {
       "required": true
-    },
+    }
   },
   "formation": {
   },
